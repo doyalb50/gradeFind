@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/defualt.css" />
+    <title>Grading system</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="input-marks">
+                        <form action="#" name="grade">
+                            <label for="bangla">Bangla</label> <br />
+                            <input type="number" id="bangla" name="bangla" placeholder="Enter your obatin marks" />
+                            <br />
+
+                            <label for="bangla">English</label> <br />
+                            <input type="number" id="english" name="english" placeholder="Enter your obatin marks" />
+                            <br />
+
+                            <label for="bangla">ICT</label> <br />
+                            <input type="number" id="ict" name="ict" placeholder="Enter your obatin marks" />
+                            <br />
+
+                            <label for="bangla">Physics</label> <br />
+                            <input type="number" id="physics" name="physics" placeholder="Enter your obatin marks" />
+                            <br />
+
+                            <label for="bangla">Chemistry</label> <br />
+                            <input type="number" id="chemistry" name="chemistry" placeholder="Enter your obatin marks" />
+                            <br />
+
+                            <label for="bangla">Biology</label> <br />
+                            <input type="number" id="biology" name="biology" placeholder="Enter your obatin marks" />
+                            <br />
+
+                            <label for="bangla">Higher Math</label> <br />
+                            <input type="number" id="math" name="math" placeholder="Enter your obatin marks" />
+                            <br />
+                            <button id="btn" onclick="findGrade()">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="result_field">
+                        <ul id="show-result"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
